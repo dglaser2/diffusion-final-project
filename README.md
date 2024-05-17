@@ -8,7 +8,7 @@ This repository contains our experiments for the Kaggle competition -> [Stable D
 
 1. **SDDBM2**: This dataset consists of 2 million images produced by Stable Diffusion along with their text prompts. Due to hard drive constraints, we trained on 1000 of these image-prompt pairs, which resulted in bizarre outputs. We believe this is due to the small dataset size and the fragmented nature of the prompts, many of which are simply lists of unlikely pairings of adjectives and nouns. We hypothesize that training on a larger dataset with more epochs could improve the results.
 
-2. **COCO**: This dataset contains about 80,000 image-caption pairs, of which we used 2000. We chose COCO for its more typical sentence structures in captions, hoping it would facilitate faster fine-tuning of our pre-trained GPT-2 model.
+2. **COCO**: This dataset contains about 80,000 image-caption pairs, of which we used 2000. We chose COCO because its captions have a more typical sentence structure and hoped this would facilitate faster fine-tuning of our pre-trained GPT-2 model.
 
 ### Models
 
