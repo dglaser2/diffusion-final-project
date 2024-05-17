@@ -1,4 +1,4 @@
-# Image Captioning with Diffusion Prompts and Pre-trained Models
+# Predicting Stable Diffusion Prompts Based on Generated Images
 
 This repository contains our experiments for the Kaggle competition -> [Stable Diffusion Image to Prompts](https://www.kaggle.com/competitions/stable-diffusion-image-to-prompts). 
 
